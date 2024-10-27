@@ -28,6 +28,8 @@ The **Country Explorer** is an interactive web application that allows users to 
   </div>
 
 - **Responsive Design**: The application adjusts to different screen sizes for optimal viewing on mobile and desktop devices.
+- **Tech Stack**: This website is built using HTML, CSS, and JavaScript.
+
 
 
 ## Setup Instructions
