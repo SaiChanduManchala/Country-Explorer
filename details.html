@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <button id="backButton" class="back-button">← Back</button>
+        <h1 id="countryName">Country Name</h1>
+
+        <div id="countryDetails" class="country-details">
+            <!-- Country details will be rendered here -->
+        </div>
+
+        <button id="favoriteButton" class="favorite-button">❤ Add to Favorites</button>
+    </div>
+
+    <script src="details.js"></script>
+</body>
+</html>
+
+
+<style>
+    .container {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .back-button {
+        font-size: 16px;
+        margin-bottom: 20px;
+        background-color: #f0f0f0;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .country-details img {
+        max-width: 150px;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .favorite-button {
+        font-size: 20px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        color: black;
+        transition: color 0.3s;
+    }
+
+    .favorite-button.red {
+        color: red;
+    }
+</style>

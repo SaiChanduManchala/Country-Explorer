@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="container">
+            <h1>Country Explorer</h1>
+        </div>
+    </nav>
+
+    <div class="container">
+        
+        <!-- Search input and suggestion box -->
+        <div class="search-filters">
+           <div> <input type="text" id="searchInput" placeholder="Search for a country..." />
+            <div id="suggestionBox" class="suggestion-box"></div>
+        </div>
+            
+            <!-- Filters -->
+            <select id="filterRegion">
+                <option value="">Filter by Region</option>
+                <option value="Africa">Africa</option>
+                <option value="Americas">Americas</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Oceania">Oceania</option>
+            </select>
+
+            <select id="filterLanguage">
+                <option value="">Filter by Language</option>
+                <option value="English">English</option>
+                <option value="Spanish">Spanish</option>
+                <option value="French">French</option>
+                <option value="Arabic">Arabic</option>
+            </select>
+        
+        </div>
+
+        <!-- Country list -->
+        <div id="countryList" class="country-list">
+            <!-- Countries will be rendered here -->
+        </div>
+
+        <!-- Centered "Show More" button -->
+        <div class="center-button">
+            <button id="loadMore" class="load-more-button">Show More</button>
+        </div>
+
+        <!-- Favorites section -->
+        <div id="favorites" class="favorites-section hidden">
+            <h3>Favorites</h3>
+            <ul id="favoriteList"></ul>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
