@@ -7,10 +7,27 @@ The **Country Explorer** is an interactive web application that allows users to 
 ## Features
 
 - **Country Cards**: Displays a grid of country cards, each showing the country's flag and name.
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="https://github.com/user-attachments/assets/ca61e03a-d92b-47c1-bc96-8d6e9402348c" width="300" style="margin: 10px;" />
+  </div>
+
 - **Search Functionality**: Users can search for countries by name or filter by region and language.
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="https://github.com/user-attachments/assets/3d5dea01-c191-44b8-b42c-a56199e63c00" width="300" style="margin: 10px;" />
+  </div>
+
 - **Details Page**: Clicking on a country card takes the user to a detailed view, which includes a map, additional country information, and an 'Add to Favorites' button.
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="https://github.com/user-attachments/assets/15adaf00-19bf-47b8-a0f8-a932fd306068" width="300" style="margin: 10px;" />
+  </div>
+
 - **Favorites Section**: Users can save their favorite countries, which are displayed separately on the main page.
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="https://github.com/user-attachments/assets/88cfc55e-dbce-48e7-98ba-3f663646093c" width="300" style="margin: 10px;" />
+  </div>
+
 - **Responsive Design**: The application adjusts to different screen sizes for optimal viewing on mobile and desktop devices.
+
 
 ## Setup Instructions
 
