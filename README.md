@@ -33,19 +33,19 @@ The **Country Explorer** is an interactive web application that allows users to 
 
 To set up the Country Explorer project locally, follow these steps:
 
-1. ### **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/country-explorer.git
-   cd country-explorer
+### 1.  **Clone the Repository**:
+   
+   `git clone https://github.com/yourusername/country-explorer.git
+   cd country-explorer`
 
-2. ### Open in VS Code:
+### 2.  Open in VS Code:
 
 - Open Visual Studio Code (VS Code).
 - Click on "File" > "Open Folder..." and select the cloned project folder.
-3. ### Open index.html:
+### 3. Open index.html:
 
 - In the Explorer pane, find and open the index.html file.
-4. ### Launch the Application:
+### 4. Launch the Application:
 
 - Open the index.html file in your preferred web browser. You can do this by right-clicking on the file and selecting "Open with Live Server" if you have the Live Server extension installed.
 ## Design Decisions
