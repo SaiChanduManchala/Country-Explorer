@@ -22,6 +22,7 @@ The **Country Explorer** is an interactive web application that allows users to 
   </div>
 
 - **Favorites Section**: Users can save their favorite countries, which are displayed separately on the main page.
+- When all favorites are removed, the section will automatically hide until a new favorite is added.
   <div style="text-align: center; margin: 20px 0;">
     <img src="https://github.com/user-attachments/assets/88cfc55e-dbce-48e7-98ba-3f663646093c" width="300" style="margin: 10px;" />
   </div>
