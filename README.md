@@ -57,29 +57,6 @@ To set up the Country Explorer project locally, follow these steps:
 - User Experience: The design prioritizes intuitive navigation and easy access to functionalities, such as filtering and searching.
 - Favorites Management: The 'Add to Favorites' button changes to a red heart shape when clicked, providing visual feedback. A confirmation message appears upon adding/removing a country from favorites.
 - UI Enhancements: The search bar width has been increased for better visibility, and the layout has been adjusted to eliminate congestion.
-## Running Tests
-- To run tests for the Country Explorer application, follow these steps:
-
-### 1. Install Mocha or Jasmine:
-
-- Ensure you have Node.js installed.
-- Navigate to the project directory in your terminal and install Mocha or Jasmine:
-
-`npm install --save-dev mocha`
-
-### 2. **Create a Test File**:
-
-- Create a test folder in the project directory.
-- Inside the test folder, create a file named app.test.js.
-### 3. **Write Your Tests**:
-
-- **Write your test cases in the app.test.js file, focusing on API interactions and dynamic updates.
-### 4. Run the Tests**:
-
-In the terminal, run the tests with:
-bash
-Copy code
-npx mocha test/app.test.js
 
 ## Browser Compatibility
 The Country Explorer application has been tested and works across major browsers, including:
