@@ -31,26 +31,6 @@ The **Country Explorer** is an interactive web application that allows users to 
 - **Tech Stack**: This website is built using HTML, CSS, and JavaScript.
 
 
-
-## Setup Instructions
-
-To set up the Country Explorer project locally, follow these steps:
-
-### 1.  **Clone the Repository**:
-   
-   `git clone https://github.com/yourusername/country-explorer.git
-   cd country-explorer`
-
-### 2.  Open in VS Code:
-
-- Open Visual Studio Code (VS Code).
-- Click on "File" > "Open Folder..." and select the cloned project folder.
-### 3. Open index.html:
-
-- In the Explorer pane, find and open the index.html file.
-### 4. Launch the Application:
-
-- Open the index.html file in your preferred web browser. You can do this by right-clicking on the file and selecting "Open with Live Server" if you have the Live Server extension installed.
 ## Design Decisions
 - Modular Code Structure: The JavaScript code is organized into separate modules to promote reusability and maintainability.
 - Responsive Design: CSS media queries are used to ensure the application looks great on devices of all sizes.
@@ -68,4 +48,4 @@ The Country Explorer application has been tested and works across major browsers
 The application is designed to be responsive on various devices, ensuring a seamless user experience. However, some features may behave differently on older versions of browsers. Ensure you are using the latest versions for optimal performance.
 
 ## Conclusion
-Thank you for exploring the Country Explorer project! Feel free to contribute or provide feedback. For any questions or issues, please open an issue on the GitHub repository.
+Thank you for exploring the Country Explorer project! Feel free to contribute or provide feedback. For any questions or issues, please open an issue on the GitHub repository and you can visit the deployed webpage by clicking on the vercel link in Repository.
