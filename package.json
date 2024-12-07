@@ -4,7 +4,7 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "test": "mocha"
+    "test": "ava"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +14,10 @@
     "node-fetch": "^3.3.2"
   },
   "devDependencies": {
+    "ava": "^6.2.0",
     "chai": "^5.1.2",
+    "jasmine": "^5.4.0",
+    "jsdom": "^25.0.1",
     "mocha": "^10.7.3"
   }
 }

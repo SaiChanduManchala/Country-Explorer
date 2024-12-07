@@ -33,27 +33,13 @@ async function fetchCountries(searchQuery = '', region = '', language = '') {
             );
             document.getElementById('filterRegion').selectedIndex = 0; // Reset region filter
         }
-        renderCountries(); // Render filtered results
+        renderCountries();
     } catch (error) {
         displayErrorMessage('Could not load country data. Please try again later.');
         console.error(error);
     }
 }
 
-/**
- * Display error message.
- * @param {string} message - Error message to display.
- */
-function displayErrorMessage(message) {
-    const errorContainer = document.getElementById('errorContainer');
-    errorContainer.innerText = message;
-    errorContainer.style.display = 'block';
-    setTimeout(() => errorContainer.style.display = 'none', 5000);
-}
-
-/**
- * Render countries on the main page.
- */
 function renderCountries() {
     const countryList = document.getElementById('countryList');
     countryList.innerHTML = ''; // It will Clear existing cards

@@ -76,5 +76,5 @@ function removeFromFavorites(countryName) {
     localStorage.setItem('favorites', JSON.stringify(favorites));
 }
 
-// Initialize the details page
+// Initializing the details page
 fetchCountryDetails();
